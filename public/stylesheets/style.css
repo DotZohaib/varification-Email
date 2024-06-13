@@ -1,0 +1,169 @@
+body {
+  /* position: relative; */
+  z-index: 1;
+  overflow-x: hidden;
+
+}
+
+#nav{
+  top: 0px;
+  left: 0px;
+  position: sticky;
+}
+#tost {
+  position: absolute;
+  top: 60px;
+  /* Adjust bottom position as needed */
+  right: 7px;
+  /* Adjust right position as needed */
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 8px;
+  gap: 7px;
+  z-index: 9999;
+}
+
+.toast {
+  max-width: 200px;
+  padding: 10px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  color: #333333;
+  position: relative;
+}
+
+.toast .close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+#tost-left {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 9999;
+  /* Ensure the toast is above other content */
+}
+
+.toast {
+  max-width: 200px;
+  /* Adjust max-width as needed */
+  padding: 10px;
+  margin-bottom: 7px;
+  /* Adjust margin between toast notifications */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.toast .close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+
+#profile-id {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#id {
+  /* display: flex; */
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #icons{
+    display: none;
+  }
+ }
+
+
+#carousel{
+width: 100vw;
+align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+ #default-carousel{
+  width: 86vw;
+  
+ }
+
+ #content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+ }
+
+
+ @media only screen and (max-width: 600px) {
+  #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+   }
+
+   #profile-id {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #id {
+    /* display: flex; */
+    width: 48vw;
+    justify-content: center;
+    align-items: center;
+  }
+ }
+
+
+ #body-laptop{
+  margin-top: 50px;
+  margin-bottom: 100px;
+ }
+
+ .form-next{
+  margin-bottom: 100px; 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .form-next1{
+  margin-bottom: 10px; 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Password</title>
+  <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body class="align">
+  <div class="grid">
+    <form action="/reset" method="POST" class="form login">
+      <div class="form__field">
+        <label for="reset__email"><svg class="icon">
+            <use xlink:href="#icon-user"></use>
+          </svg><span class="hidden">Email</span></label>
+        <input id="reset__email" type="email" name="email" class="form__input" placeholder="Email" required>
+      </div>
+      <div class="form__field">
+        <label for="reset__otp"><svg class="icon">
+            <use xlink:href="#icon-lock"></use>
+          </svg><span class="hidden">OTP</span></label>
+        <input id="reset__otp" type="text" name="otp" class="form__input" placeholder="OTP" required>
+      </div>
+      <div class="form__field">
+        <label for="reset__password"><svg class="icon">
+            <use xlink:href="#icon-lock"></use>
+          </svg><span class="hidden">New Password</span></label>
+        <input id="reset__password" type="password" name="password" class="form__input" placeholder="New Password" required>
+      </div>
+      <div class="form__field">
+        <input type="submit" value="Reset Password">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
